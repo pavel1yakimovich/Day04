@@ -22,7 +22,7 @@ namespace Task01Logic
             {
                 case 1:
                     BubbleSortSumAscend(arr);
-                   break;
+                    break;
                 case 2:
                     BubbleSortSumDescend(arr);
                     break;
@@ -46,13 +46,13 @@ namespace Task01Logic
         {
             for (int i = 0; i < arr.Length - 1; i++)
             {
-                for (int j = i; j < arr.Length - 1; j++)
+                for (int j = 0; j < arr.Length - i - 1; j++)
                 {
                     if (arr[j].Sum() > arr[j + 1].Sum())
                     {
                         int[] temp = arr[j];
                         arr[j] = arr[j + 1];
-                        arr[j + 1] = arr[j];
+                        arr[j + 1] = temp;
                     }
                 }
             }
@@ -62,13 +62,13 @@ namespace Task01Logic
         {
             for (int i = 0; i < arr.Length - 1; i++)
             {
-                for (int j = i; j < arr.Length - 1; j++)
+                for (int j = 0; j < arr.Length - i - 1; j++)
                 {
                     if (arr[j].Sum() < arr[j + 1].Sum())
                     {
                         int[] temp = arr[j];
                         arr[j] = arr[j + 1];
-                        arr[j + 1] = arr[j];
+                        arr[j + 1] = temp;
                     }
                 }
             }
@@ -78,13 +78,13 @@ namespace Task01Logic
         {
             for (int i = 0; i < arr.Length - 1; i++)
             {
-                for (int j = i; j < arr.Length - 1; j++)
+                for (int j = 0; j < arr.Length - i - 1; j++)
                 {
                     if (arr[j].Max() > arr[j + 1].Max())
                     {
                         int[] temp = arr[j];
                         arr[j] = arr[j + 1];
-                        arr[j + 1] = arr[j];
+                        arr[j + 1] = temp;
                     }
                 }
             }
@@ -94,13 +94,13 @@ namespace Task01Logic
         {
             for (int i = 0; i < arr.Length - 1; i++)
             {
-                for (int j = i; j < arr.Length - 1; j++)
+                for (int j = 0; j < arr.Length - i - 1; j++)
                 {
                     if (arr[j].Max() < arr[j + 1].Max())
                     {
                         int[] temp = arr[j];
                         arr[j] = arr[j + 1];
-                        arr[j + 1] = arr[j];
+                        arr[j + 1] = temp;
                     }
                 }
             }
@@ -108,15 +108,15 @@ namespace Task01Logic
 
         public static void BubbleSortMinAscend(int[][] arr)
         {
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < arr.Length ; i++)
             {
-                for (int j = i; j < arr.Length - 1; j++)
+                for (int j = 0; j < arr.Length - i - 1; j++)
                 {
                     if (arr[j].Min() > arr[j + 1].Min())
                     {
                         int[] temp = arr[j];
                         arr[j] = arr[j + 1];
-                        arr[j + 1] = arr[j];
+                        arr[j + 1] = temp;
                     }
                 }
             }
@@ -126,13 +126,13 @@ namespace Task01Logic
         {
             for (int i = 0; i < arr.Length - 1; i++)
             {
-                for (int j = i; j < arr.Length - 1; j++)
+                for (int j = 0; j < arr.Length - i - 1; j++)
                 {
                     if (arr[j].Min() < arr[j + 1].Min())
                     {
                         int[] temp = arr[j];
                         arr[j] = arr[j + 1];
-                        arr[j + 1] = arr[j];
+                        arr[j + 1] = temp;
                     }
                 }
             }

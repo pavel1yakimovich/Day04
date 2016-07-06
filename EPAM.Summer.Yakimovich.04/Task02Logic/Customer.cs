@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task02Logic
 {
-    public class Class1
+    class Customer
     {
     }
 }
