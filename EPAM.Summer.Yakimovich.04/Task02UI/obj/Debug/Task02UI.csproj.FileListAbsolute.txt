@@ -1,0 +1,8 @@
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02UI\bin\Debug\Task02UI.exe.config
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02UI\bin\Debug\Task02UI.exe
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02UI\bin\Debug\Task02UI.pdb
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02UI\bin\Debug\Task02Logic.dll
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02UI\bin\Debug\Task02Logic.pdb
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02UI\obj\Debug\Task02UI.csprojResolveAssemblyReference.cache
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02UI\obj\Debug\Task02UI.exe
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02UI\obj\Debug\Task02UI.pdb
