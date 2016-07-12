@@ -2,3 +2,4 @@ E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02Logic\bin\Debug\T
 E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02Logic\bin\Debug\Task02Logic.pdb
 E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02Logic\obj\Debug\Task02Logic.dll
 E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02Logic\obj\Debug\Task02Logic.pdb
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task02Logic\obj\Debug\Task02Logic.csprojResolveAssemblyReference.cache

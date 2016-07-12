@@ -1,0 +1,7 @@
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task01Tests\bin\Debug\Task01Tests.dll
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task01Tests\bin\Debug\Task01Tests.pdb
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task01Tests\bin\Debug\Task01Logic.dll
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task01Tests\bin\Debug\Task01Logic.pdb
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task01Tests\obj\Debug\Task01Tests.csprojResolveAssemblyReference.cache
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task01Tests\obj\Debug\Task01Tests.dll
+E:\Trainings EPAM\Day 04\Day04\EPAM.Summer.Yakimovich.04\Task01Tests\obj\Debug\Task01Tests.pdb
