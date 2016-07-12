@@ -7,7 +7,7 @@ namespace Task01Logic
     public static class BubbleSort
     {
         /// <summary>
-        /// sorts array
+        /// sorts arraн
         /// </summary>
         /// <param name="arr">array</param>
         /// <param name="comparation">object that implements method of comparison</param>
