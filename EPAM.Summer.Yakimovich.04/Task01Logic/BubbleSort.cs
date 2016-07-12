@@ -15,7 +15,7 @@ namespace Task01Logic
         {
             if (arr == null)
             {
-                throw new NullReferenceException();
+                throw new ArgumentNullException();
             }
 
             if (comparation == null)
