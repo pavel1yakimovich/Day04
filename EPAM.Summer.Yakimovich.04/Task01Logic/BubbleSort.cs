@@ -13,43 +13,22 @@ namespace Task01Logic
         /// <param name="comparation">object that implements method of comparison</param>
         public static int[][] BubbleSortMethod(int[][] arr, IComparer<int[]> comparation )
         {
-            if (arr == null)
+            if (arr == null || comparation == null)
             {
                 throw new ArgumentNullException();
             }
 
-            if (comparation == null)
-            {
-                DefaultBubbleSort(arr);
-            }
-            else
-            {
-                for (int i = 0; i < arr.Length - 1; i++)
-                {
-                    for (int j = 0; j < arr.Length - i - 1; j++)
-                    {
-                        if (comparation.Compare(arr[j], arr[j + 1]) == 1)
-                        {
-                            Swap(ref arr[j], ref arr[j + 1]);
-                        }
-                    }
-                }
-            }
-            return arr;
-        }
-
-        private static int[][] DefaultBubbleSort(int[][] arr)
-        {
             for (int i = 0; i < arr.Length - 1; i++)
             {
                 for (int j = 0; j < arr.Length - i - 1; j++)
                 {
-                    if (arr[j].Sum() > arr[j + 1].Sum())
+                    if (comparation.Compare(arr[j], arr[j + 1]) == 1)
                     {
                         Swap(ref arr[j], ref arr[j + 1]);
                     }
                 }
             }
+
             return arr;
         }
 
