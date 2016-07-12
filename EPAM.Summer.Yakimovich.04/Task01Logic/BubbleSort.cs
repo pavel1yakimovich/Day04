@@ -11,7 +11,7 @@ namespace Task01Logic
         /// </summary>
         /// <param name="arr">array</param>
         /// <param name="comparation">object that implements method of comparison</param>
-        public static void BubbleSortMethod(int[][] arr, IComparer<int[]> comparation )
+        public static int[][] BubbleSortMethod(int[][] arr, IComparer<int[]> comparation )
         {
             if (arr == null)
             {
@@ -35,9 +35,10 @@ namespace Task01Logic
                     }
                 }
             }
+            return arr;
         }
 
-        private static void DefaultBubbleSort(int[][] arr)
+        private static int[][] DefaultBubbleSort(int[][] arr)
         {
             for (int i = 0; i < arr.Length - 1; i++)
             {
@@ -49,6 +50,7 @@ namespace Task01Logic
                     }
                 }
             }
+            return arr;
         }
 
         private static void Swap(ref int[] a, ref int[] b)
